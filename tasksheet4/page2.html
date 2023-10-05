@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .loader-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 75vh;
+        }
+
+        .loader {
+            width: 200px; /* You can adjust the size here */
+            height: 200px; /* You can adjust the size here */
+            border: 5px solid #3498db;
+            border-top: 4px solid transparent;
+            border-radius: 50%;
+            animation: spin 2s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+</style>
+<body>
+    <div style="width: 100%;">
+        <div style="width: 30%; background: beige; float: left; height: 700px;">
+          <ul style="list-style-type: none;">
+            <li><font face = "Lucida fax" size = 4 > <b>PROPONENTS</b></font><br><br>
+             <ul style="list-style-type: none;">
+                <li style="margin-bottom: 10px;"><a href="terms.html" style="text-decoration: none; color: black;">TERMS</a></li>
+                <li style="margin-bottom: 10px;"><a href="faqs.html" style="text-decoration: none; color: black;">FAQS</a></li>
+             </ul>   
+            </li>
+            <br>
+            <li><a href="page1.html" style="text-decoration: none; color: black;"><font face = "Lucida fax" size = 4 ><b>INFORMATION</b></font><br><br></a>
+                <ul style="list-style-type: none;">
+                    <li style="margin-bottom: 10px;">
+                        <a href="page3.html" style="text-decoration: none; color: black;">ACADEMIC INFORMATION</a>
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <a href="page4.html" style="text-decoration: none; color: black;">PERSONAL INFORMATION</a>
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <a href="page5.html" style="text-decoration: none; color: black;">FAMILY INFORMATION</a>
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <a href="page6.html" style="text-decoration: none; color: black; ">ABOUT ME</a>
+                    </li>
+                    <li style="margin-bottom: 10px;">
+                        <a href="page7.html" style="text-decoration: none; color: black;">RESUME</a>
+                    </li>
+                    <li>
+                        <a href="../s.html" style="text-decoration: none; color: black;">BACK</a>
+                    </li>
+        
+        </ul>
+        </div>
+        <div style="background-color: green; text-align: center; height: 700px; width: 70%; float: left">
+            <br>
+            <header style="background-color: darkseagreen; font-size: xx-large;"><b>TELECALL LAGUNA</b></header>
+            <div style="width: 90%; height: 550px; background-color: azure; margin: 5%; align-content: center; justify-content: center;">
+                <div class="loader-container">
+                    <div class="loader"></div>
+                </div>
+            
+            </div>
+            
+            
+        </div>
+        <div style="width: 100%; background-color: whitesmoke; text-align: center;">
+            <font face = "Georgia" size = 4><b>TELECALL LAGUNA</b></font>
+            
+            
+        </div>
+    </div>
+        
+</body>
+</html>
